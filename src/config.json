@@ -1,0 +1,22 @@
+{
+  "cryptoDeviceConfig":{
+    "deviceIp":"192.168.1.188",
+    "devicePort":1818,
+    "timeOut": 1
+  },
+  "dbConfig":{
+    "dbType":"mysql",
+    "dbSource":"root:123456@tcp(192.168.1.107:3306)/ewallet?charset=utf8"
+  },
+  "isHttps": false,
+  "httpConfig":{
+    "endPoint":":18080",
+    "charSet":"UTF-8"
+  },
+  "httpsConfig":{
+    "endPoint":":443",
+    "certFile":"",
+    "keyFile":"",
+    "charSet":"UTF-8"
+  }
+}
